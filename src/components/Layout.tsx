@@ -41,7 +41,7 @@ export const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Navbar />
-      <main className="pt-20 min-h-screen bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800">
+      <main className="pt-20 min-h-screen bg-gradient-to-br from-[#E6F2FF] via-[#D3E4FD] to-[#C0DBFA] dark:from-gray-900 dark:to-gray-800">
         {children}
       </main>
       <footer className="py-6 bg-portfolioblue text-white text-center">
@@ -52,3 +52,4 @@ export const Layout = ({ children }: LayoutProps) => {
     </>
   );
 };
+
