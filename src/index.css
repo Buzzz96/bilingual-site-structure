@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -16,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 212 30% 22%; /* #25354A */
+    --primary: 212 30% 45%; /* Lighter blue */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -25,7 +24,7 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 212 30% 65%; /* #5A7396 - lighter blue */
+    --accent: 212 30% 60%; /* Even lighter blue accent */
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -48,7 +47,7 @@
     --popover: 212 30% 15%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 212 30% 22%; /* #25354A */
+    --primary: 212 30% 40%; /* Darker, but still lighter than before */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 212 30% 25%;
@@ -57,7 +56,7 @@
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 212 30% 30%;
+    --accent: 212 30% 50%; /* Lighter accent for dark mode */
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;

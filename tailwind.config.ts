@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -68,10 +67,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				portfolioblue: {
-					DEFAULT: '#25354A',
-					light: '#3E5371',
-					lighter: '#5A7396',
-					dark: '#1A2535',
+					DEFAULT: '#3E5371',
+					light: '#5A7396',
+					lighter: '#7E97B9',
+					dark: '#25354A',
 					'50': '#EEF1F5',
 					'100': '#D4DCE7',
 					'200': '#A9BAD0',
