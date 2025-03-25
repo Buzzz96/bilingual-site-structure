@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://buzzz96.github.io/bilingual-site-structure",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
