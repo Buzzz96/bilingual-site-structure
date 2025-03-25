@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,19 +68,20 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				portfolioblue: {
-					DEFAULT: '#3E5371',
-					light: '#5A7396',
-					lighter: '#7E97B9',
-					dark: '#25354A',
-					'50': '#EEF1F5',
-					'100': '#D4DCE7',
-					'200': '#A9BAD0',
-					'300': '#7E97B9',
-					'400': '#5375A1',
-					'500': '#3E5371',
-					'600': '#25354A',
-					'700': '#1A2535',
-					'800': '#101621',
+					DEFAULT: '#6D9EC1', // Lighter baby blue as default
+					light: '#8FB8D3',  // Lighter shade
+					lighter: '#B1D0E6', // Even lighter shade for accents
+					dark: '#4A7A9B',   // Darker shade for contrasts
+					'50': '#EFF6FB',
+					'100': '#D9EAF5',
+					'200': '#B1D0E6',
+					'300': '#8FB8D3',
+					'400': '#6D9EC1',
+					'500': '#4A7A9B',
+					'600': '#385C77',
+					'700': '#2A455A',
+					'800': '#1C2E3D',
+					'900': '#0E1720',
 				}
 			},
 			borderRadius: {
