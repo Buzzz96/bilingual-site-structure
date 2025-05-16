@@ -52,15 +52,15 @@ const Experience = () => {
                     </h4>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                       <li className="flex items-start">
-                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">✅</span>
+                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">•</span>
                         Front-end : Vue.js (TypeScript, composants réutilisables, tests avec Jest)
                       </li>
                       <li className="flex items-start">
-                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">✅</span>
+                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">•</span>
                         Back-end : Java Spring Boot (API REST, gestion des services, tests avec JUnit)
                       </li>
                       <li className="flex items-start">
-                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">✅</span>
+                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">•</span>
                         Base de données : MariaDB (Conception, optimisation, requêtes SQL avancées)
                       </li>
                     </ul>
@@ -72,15 +72,15 @@ const Experience = () => {
                     </h4>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                       <li className="flex items-start">
-                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">✅</span>
+                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">•</span>
                         Git/GitLab : Branching, Merge Requests (MR), rebase, gestion des conflits
                       </li>
                       <li className="flex items-start">
-                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">✅</span>
+                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">•</span>
                         Jenkins : Automatisation des builds et déploiements
                       </li>
                       <li className="flex items-start">
-                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">✅</span>
+                        <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">•</span>
                         Docker : Environnement conteneurisé pour le développement et le déploiement
                       </li>
                     </ul>
@@ -129,18 +129,28 @@ const Experience = () => {
                       🛠️ Technologies & Outils Utilisés
                     </h4>
                     <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Angular</span>
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Bootstrap</span>
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Java</span>
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Spring Boot</span>
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Spring Batch</span>
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">JPA</span>
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">MySQL</span>
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">GitLab CI/CD</span>
-                      <span className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Cloud Foundry</span>
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Angular</span>
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Spring Boot</span>
+
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Java</span>
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">GitLab CI/CD</span>
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">MySQL</span>
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">JPA</span>
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Spring Batch</span>
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Bootstrap</span>
+                      <span
+                          className="bg-portfolioblue-50 text-portfolioblue dark:bg-portfolioblue-dark dark:text-white px-3 py-1 rounded-full text-sm">Cloud Foundry</span>
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 className="text-lg font-semibold text-portfolioblue-light dark:text-portfolioblue-lighter mb-2">
                       📌 Tâches Réalisées
@@ -150,6 +160,7 @@ const Experience = () => {
                         <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">•</span>
                         Création d'une application Angular + Spring Boot from scratch
                       </li>
+
                       <li className="flex items-start">
                         <span className="text-portfolioblue dark:text-portfolioblue-lighter mr-2">•</span>
                         Développement d'API pour consultation des données batch

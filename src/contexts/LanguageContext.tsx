@@ -40,11 +40,15 @@ const translations = {
     
     // Projects page
     'projects.title': 'Projets et Réalisations',
-    'projects.caisse.title': 'Logiciel de Caisse',
+    'projects.caisse.title': 'Développeur Full Stack, Chef de Projet – Logiciel de Caisse | ENIB | Brest',
     'projects.caisse.role': 'Développeur Full Stack, Chef de Projet',
+    'projects.calculatrice.role' : 'Projet de développement d’un mini OS multitâche sur microcontrôleur.',
     'projects.caisse.company': 'ENIB',
     'projects.caisse.location': 'Brest',
-    'projects.robot.title': 'Développement embarqué - Projet pluridisciplinaire',
+    'projects.robot.title': 'Développement embarqué - Projet pluridisciplinaire | ENIB | Brest',
+    'projects.ai.title': 'Développement Logiciel, Réalité Virtuelle et IA | ENIB | Brest',
+    'projects.calculatrice.title' : ' Système d’exploitation embarqué – Projet LPC55S69 | ENIB | Brest',
+    'project.bma.title' : 'Système embarqué de lecture et visualisation temps réel du capteur BMA456 sur STM32',
     'projects.robot.company': 'ENIB',
     'projects.robot.location': 'Brest',
     
@@ -76,6 +80,9 @@ const translations = {
     'contact.message': 'Message',
     'contact.send': 'Envoyer',
     'contact.info': 'Informations de contact',
+
+    // cv
+    'cv.langue':'Télécharger mon CV',
   },
   en: {
     // Navigation
@@ -107,11 +114,14 @@ const translations = {
     
     // Projects page
     'projects.title': 'Projects and Achievements',
-    'projects.caisse.title': 'Point of Sale Software',
+    'projects.caisse.title': 'Full Stack Developer, Project Manager – Point of Sale Software | ENIB | Brest',
     'projects.caisse.role': 'Full Stack Developer, Project Manager',
+    'projects.calculatrice.role' : 'Implementation of a lightweight embedded OS on a microcontroller',
     'projects.caisse.company': 'ENIB',
     'projects.caisse.location': 'Brest',
     'projects.robot.title': 'Embedded Development - Multidisciplinary Project',
+    'projects.ai.title': 'Software Development, Virtual Reality, and AI | ENIB | Brest',
+    'projects.calculatrice.title' : ' Embedded Operating System – LPC55S69 Project | ENIB | Brest',
     'projects.robot.company': 'ENIB',
     'projects.robot.location': 'Brest',
     
@@ -143,6 +153,9 @@ const translations = {
     'contact.message': 'Message',
     'contact.send': 'Send',
     'contact.info': 'Contact Information',
+
+    // CV Langue
+    'cv.langue':'Download CV',
   }
 };
 
@@ -159,12 +172,13 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     const savedLanguage = localStorage.getItem('language') as Language | null;
     const browserLanguage = navigator.language.startsWith('fr') ? 'fr' : 'en';
-    
+
     if (savedLanguage) {
       setLanguage(savedLanguage);
     } else {
-      setLanguage(browserLanguage);
+      setLanguage('fr');
     }
+
   }, []);
 
   // Update HTML lang attribute and localStorage when language changes
