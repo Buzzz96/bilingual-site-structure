@@ -181,7 +181,7 @@ const Contact = () => {
               
               <div className="flex gap-4">
                 <a 
-                  href="https://linkedin.com/in/" 
+                  href="https://www.linkedin.com/in/gergesantonio/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-portfolioblue-50 dark:bg-portfolioblue-dark rounded-full flex items-center justify-center text-portfolioblue dark:text-white hover:bg-portfolioblue hover:text-white dark:hover:bg-white dark:hover:text-portfolioblue transition-colors"
@@ -190,7 +190,7 @@ const Contact = () => {
                 </a>
                 
                 <a 
-                  href="https://github.com/" 
+                  href="https://buzzz96.github.io/logiciel-caisse-docs/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-portfolioblue-50 dark:bg-portfolioblue-dark rounded-full flex items-center justify-center text-portfolioblue dark:text-white hover:bg-portfolioblue hover:text-white dark:hover:bg-white dark:hover:text-portfolioblue transition-colors"
